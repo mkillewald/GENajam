@@ -108,4 +108,4 @@ Check out the SMSPower page to see all the algorithms.
 
 **VOICES and Polyphony** - The YM2612 is multi-timbral. That means that while in POLY mode it loads all patches and settings across to all 6 channels at once, you can also switch over to MONO mode, set each channel differently, switch back to POLY mode (without pressing left and right) and play all 6 voices which different settings in POLY mode which is really cool. Try load different presets into channels 1 - 6 in MONO mode and then press POLY mode. I wrote the polyphony engine to have random note stealing and have low note priority. This means chords should sound really full if you hold something with the sustain pedal and play a melody over a held chord.
 
-Thanks for checking out my project! You can check out my music at http://www.jamatar.com :)
+Thanks for checking out my project! You can check out [Jamatar's] music at http://www.jamatar.com :)
