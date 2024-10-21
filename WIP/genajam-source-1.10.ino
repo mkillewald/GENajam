@@ -1,7 +1,7 @@
 // Catskull GENajam v1.10 - JAMATAR 2021-AUGUST
 // --------------------
 // This is a front end for Litte-scale's GENMDM module for Mega Drive
-// Currently for: MightyCore ATMega1284
+// Currently for: Arduino MEGA 2560
 // SD card hooks up via the ICSP header pins
 
 #include <MIDI.h>  // Midi Library
@@ -13,7 +13,8 @@
 
 //-------------------------------------------
 //LCD pin to Arduino
-LiquidCrystal lcd(PIN_PD5, PIN_PD4, PIN_PB0, PIN_PB1, PIN_PB2, PIN_PB3);
+const int rs = 13, en = 12, d4 = 6, d5 = 5, d6 = 4, d7 = 3;
+LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
 
 uint8_t lcd_key = 0;
 #define btnRIGHT  0
@@ -125,7 +126,7 @@ uint8_t refreshscreen = 0; // trigger refresh of screen but only once
 //-------------------------------------------
 
 // SD card chip select pin.
-const uint8_t SD_CS_PIN = PIN_PB4;
+const uint8_t SD_CS_PIN = 2;
 
 SdFat sd;
 SdFile tfifile;
@@ -183,17 +184,18 @@ uint8_t polypan=64;
 uint8_t polyvoicenum=6;
 
 // knobs and buttons
-uint8_t potPin1 = PIN_PA3; // OP 1
-uint8_t potPin2 = PIN_PA2; // OP 2
-uint8_t potPin3 = PIN_PA1; // OP 3
-uint8_t potPin4 = PIN_PA0; // OP 4
-uint8_t buttonPin1 = PIN_PC2; // Preset / Edit
-uint8_t buttonPin2 = PIN_PC1; // Left
-uint8_t buttonPin3 = PIN_PC3; // Right
-uint8_t buttonPin4 = PIN_PC7; // CH Up
-uint8_t buttonPin5 = PIN_PC4; // CH Down
-uint8_t buttonPin6 = PIN_PC5; // Mono / Poly
-uint8_t buttonPin7 = PIN_PC6; // Region
+uint8_t potPin1 = A2; // OP 1
+uint8_t potPin2 = A3; // OP 2
+uint8_t potPin3 = A4; // OP 3
+uint8_t potPin4 = A5; // OP 4
+uint8_t buttonPin1 = 9; // Preset / Edit
+uint8_t buttonPin2 = 8; // Left
+uint8_t buttonPin3 = 7; // Right
+uint8_t buttonPin4 = A0; // CH Up
+uint8_t buttonPin5 = A1; // CH Down
+uint8_t buttonPin6 = 10; // Mono / Poly
+uint8_t buttonPin7 = 11; // Blank (DELETE)
+
 uint8_t prevpotvalue[4]; // recorded last potentiometer values
 bool menuprompt = 1; // for when a menu has to pause, 0 means in a menu
 bool booted = 0; // for knowing if genajam just turned on
