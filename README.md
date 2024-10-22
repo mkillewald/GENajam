@@ -1,3 +1,7 @@
+This is a fork of https://github.com/jamatarmusic/GENajam edited to work on an Arduino MEGA 2560 using my sheild pcb available at [PCBWay](https://www.pcbway.com/project/shareproject/GENajam_I_O_Shield_for_Arduino_MEGA_2560_62bec024.html)
+
+Original readme by Jamatar is below:
+
 # GENajam v1.10
 Front end editor for GenMDM by Littlescale
 
