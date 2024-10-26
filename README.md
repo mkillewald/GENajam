@@ -1,5 +1,7 @@
 This is a fork of https://github.com/jamatarmusic/GENajam edited to work on an Arduino MEGA 2560 using my sheild pcb available at [PCBWay](https://www.pcbway.com/project/shareproject/GENajam_I_O_Shield_for_Arduino_MEGA_2560_62bec024.html)
 
+<a href="https://www.pcbway.com/project/shareproject/GENajam_I_O_Shield_for_Arduino_MEGA_2560_62bec024.html"><img src="https://github.com/mkillewald/glamour_shots/blob/main/GENajam/GENajam.jpeg" width="700" alt="GENajam I/O Shield for Arduino MEGA 2560"></a>
+
 Original readme by Jamatar is below:
 
 # GENajam v1.10
