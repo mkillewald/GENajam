@@ -21,6 +21,8 @@ GENajam is written in Arduino and this fork runs on the Arduino Mega 2560.
 
 # Required Libraries
 
+Both required libraries can be installed via the Arduino IDE Library Manager.
+
 - MIDI library 5.0.2 by FortySevenEffects [Francois Best, lathoub]  (https://github.com/FortySevenEffects/arduino_midi_library)
 - SDfat library 1.1.4 by Bill Greiman (https://github.com/greiman/SdFat).
 
