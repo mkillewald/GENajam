@@ -2,7 +2,6 @@ This is a fork of https://github.com/jamatarmusic/GENajam edited to work on an A
 
 <a href="https://github.com/mkillewald/glamour_shots/blob/main/GENajam/GENajam.jpeg"><img src="https://github.com/mkillewald/glamour_shots/blob/main/GENajam/GENajam.jpeg" width="700" alt="GENajam I/O Shield for Arduino MEGA 2560"></a>
 
-Original code and readme by Jamatar.
 
 # GENajam v1.10
 Front end editor for GenMDM by Littlescale
@@ -18,7 +17,12 @@ A physical front end interface for GenMDM for Mega Drive.. This hardware device 
 
 Note: PCM mode switching is not supported by Genajam but can be still enabled in MONO mode. There is a bug in GENMDM where Decay 2 only works on OP1.
 
-GENajam is written in Arduino and [this fork] runs on the Arduino Mega 2560. It uses the MIDI library [5.0.2] by FortySevenEffects [Francois Best, lathoub]  (https://github.com/FortySevenEffects/arduino_midi_library) and the SDfat library [1.1.4] by Bill Greiman (https://github.com/greiman/SdFat).
+GENajam is written in Arduino and this fork runs on the Arduino Mega 2560. 
+
+# Required Libraries
+
+- MIDI library 5.0.2 by FortySevenEffects [Francois Best, lathoub]  (https://github.com/FortySevenEffects/arduino_midi_library)
+- SDfat library 1.1.4 by Bill Greiman (https://github.com/greiman/SdFat).
 
 # Instructions
 
