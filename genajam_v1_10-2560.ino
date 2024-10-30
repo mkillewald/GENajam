@@ -1,4 +1,5 @@
-// Catskull GENajam v1.10 - JAMATAR 2021-AUGUST
+// GENajam v1.10 2560 - k1ds3ns4t10n 2024-OCTOBER
+// originally by/forked from JAMATAR 2021-AUGUST
 // --------------------
 // This is a front end for Litte-scale's GENMDM module for Mega Drive
 // Currently for: Arduino MEGA 2560
