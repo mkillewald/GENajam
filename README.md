@@ -2,7 +2,7 @@ This is a fork of https://github.com/jamatarmusic/GENajam edited to work on an A
 
 <a href="https://github.com/mkillewald/glamour_shots/blob/main/GENajam/GENajam.jpeg"><img src="https://github.com/mkillewald/glamour_shots/blob/main/GENajam/GENajam.jpeg" width="700" alt="GENajam I/O Shield for Arduino MEGA 2560"></a>
 
-Original readme by Jamatar is below:
+Original code and readme by Jamatar.
 
 # GENajam v1.10
 Front end editor for GenMDM by Littlescale
@@ -11,16 +11,14 @@ Overview video: https://www.youtube.com/watch?v=uE3FbmMKl-U
 
 Connection guide (and history): https://www.youtube.com/watch?v=WcB8032SWHI
 
-WINDOWS v1.1 FIRMWARE UPDATER: https://github.com/jamatarmusic/GENajam/tree/master/firmware%20update
-
 To see an example of what this can do: https://www.youtube.com/watch?v=_nLA5kXui2M
 *This is a live improv GENajam set played over some multi-tracked GENajam recorded material.*
 
-A physical front end interface for GenMDM for Mega Drive built by Catskull Electronics. This hardware device will allow you to access all FM settings for the 6 channels offered by GenMDM as well as load and save TFI files from SD card and assign them per channel. Currently supports channels 1-6 for FM and has full 6 note Polyphony with last note priority and low note priority. There is also sustain pedal support and the modulation wheel now activates the LFO. This makes it extremely musical to play chords and pads. GENajam will also gives a very piano like velocity curve, allowing the instruments to be played with ease.
+A physical front end interface for GenMDM for Mega Drive.. This hardware device will allow you to access all FM settings for the 6 channels offered by GenMDM as well as load and save TFI files from SD card and assign them per channel. Currently supports channels 1-6 for FM and has full 6 note Polyphony with last note priority and low note priority. There is also sustain pedal support and the modulation wheel now activates the LFO. This makes it extremely musical to play chords and pads. GENajam will also gives a very piano like velocity curve, allowing the instruments to be played with ease.
 
 Note: PCM mode switching is not supported by Genajam but can be still enabled in MONO mode. There is a bug in GENMDM where Decay 2 only works on OP1.
 
-GENajam is written in Arduino and runs on the MightyCore ATMega1284 (https://github.com/MCUdude/MightyCore). It uses the MIDI library by FortySevenEffects (https://github.com/FortySevenEffects/arduino_midi_library) and the SDfat library by Greiman (https://github.com/greiman/SdFat).
+GENajam is written in Arduino and [this fork] runs on the Arduino Mega 2560. It uses the MIDI library [5.0.2] by FortySevenEffects [Francois Best, lathoub]  (https://github.com/FortySevenEffects/arduino_midi_library) and the SDfat library [1.1.4] by Bill Greiman (https://github.com/greiman/SdFat).
 
 # Instructions
 
