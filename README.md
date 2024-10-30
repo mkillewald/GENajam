@@ -31,8 +31,8 @@ There is a folder of sample TFI files that you can test by loading them to the r
 You can find more TFI files here: https://www.dropbox.com/s/kz5h8phgp4273vx/TFI_WITH_FRIENDLY_NAMES.zip?dl=0
 
 To plug Genajam and genMDM into your Mega Drive / Genesis:
-- plug your midi keyboard (or USB midi dongle) into the red catskull DIN to 3.5mm connector and then plug into **IN** on Genajam.
-- using the 3.5mm to 3.5mm aux chord, plug from **OUT** on Genajam to the 3.5mm midi input on genMDM.
+- plug your midi keyboard (or USB midi dongle) into **IN** on Genajam.
+- using the 3.5mm to 3.5mm aux chord, plug from **OUT** on Genajam to the 3.5mm MIDI input on genMDM.
 - insert the genMDM cartridge to your Mega Drive / Genesis and turn it on. You will hear a tone.
 - plug the genMDM unit into controller port 2 of the Mega Drive / Genesis. You will hear a chord.
 - plug the usb-C cable into Genajam to turn it on.
