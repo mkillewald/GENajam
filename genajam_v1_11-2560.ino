@@ -1,4 +1,4 @@
-// GENajam v1.10 2560 - k1ds3ns4t10n 2024-OCTOBER
+// GENajam v1.11 2560 - k1ds3ns4t10n 2024-NOVEMBER
 // originally by/forked from JAMATAR 2021-AUGUST
 // --------------------
 // This is a front end for Litte-scale's GENMDM module for Mega Drive
@@ -24,7 +24,7 @@ uint8_t lcd_key = 0;
 #define btnLEFT   3
 #define btnSELECT 4
 #define btnPOLY   5
-#define btnBLANK 6
+#define btnBLANK  6
 #define btnNONE   7
 
 byte emojichannel[] = {
@@ -360,9 +360,9 @@ MIDI.read();
         
         case btnUP:
         {
-        tfichannel=tfichannel-1;
-        if(tfichannel==(0)){ // if max channels reached, loop around
-        tfichannel=6;
+        tfichannel=tfichannel+1;
+        if(tfichannel==(7)){ // if max channels reached, loop around
+        tfichannel=1;
         }
         channelselect();
         break;
@@ -370,9 +370,9 @@ MIDI.read();
         
         case btnDOWN:
         {
-        tfichannel=tfichannel+1;
-        if(tfichannel==(7)){ // if max channels reached, loop around
-        tfichannel=1;
+        tfichannel=tfichannel-1;
+        if(tfichannel==(0)){ // if min channels reached, loop around
+        tfichannel=6;
         }
         channelselect();
         break;
@@ -421,9 +421,9 @@ MIDI.read();
         
         case btnUP:
         {
-        tfichannel=tfichannel-1;
-        if(tfichannel==(0)){ // if max channels reached, loop around
-        tfichannel=6;
+        tfichannel=tfichannel+1;
+        if(tfichannel==(7)){ // if max channels reached, loop around
+        tfichannel=1;
         }
         fmparamdisplay();
         break;
@@ -431,9 +431,9 @@ MIDI.read();
         
         case btnDOWN:
         {
-        tfichannel=tfichannel+1;
-        if(tfichannel==(7)){ // if max channels reached, loop around
-        tfichannel=1;
+        tfichannel=tfichannel-1;
+        if(tfichannel==(0)){ // if min channels reached, loop around
+        tfichannel=6;
         }
         fmparamdisplay();
         break;
