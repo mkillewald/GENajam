@@ -3,7 +3,7 @@ This is a fork of https://github.com/jamatarmusic/GENajam edited to work on an A
 <a href="https://github.com/mkillewald/glamour_shots/blob/main/GENajam/GENajam.jpeg"><img src="https://github.com/mkillewald/glamour_shots/blob/main/GENajam/GENajam.jpeg" width="700" alt="GENajam I/O Shield for Arduino MEGA 2560"></a>
 
 
-# GENajam 2560 v1.10
+# GENajam 2560 v1.11
 Front end editor for GenMDM by Littlescale
 
 Overview video: https://www.youtube.com/watch?v=uE3FbmMKl-U
@@ -52,7 +52,7 @@ GENajam launches in POLY mode, giving you 6 notes of polyphony over the channel 
 
 ## Buttons and Functions
 
-Note, these buttons refer to the v1.10 firmware.
+Note, these buttons refer to the v1.10 firmware and newer.
 
 **PRESET / FM EDIT** - This button swaps between preset mode and FM editing mode so you can quickly navigate to a patch and jump into editing it's parameters.
 
@@ -126,3 +126,8 @@ Check out the SMSPower page to see all the algorithms.
 **VOICES and Polyphony** - The YM2612 is multi-timbral. That means that while in POLY mode it loads all patches and settings across to all 6 channels at once, you can also switch over to MONO mode, set each channel differently, switch back to POLY mode (without pressing left and right) and play all 6 voices which different settings in POLY mode which is really cool. Try load different presets into channels 1 - 6 in MONO mode and then press POLY mode. I wrote the polyphony engine to have random note stealing and have low note priority. This means chords should sound really full if you hold something with the sustain pedal and play a melody over a held chord.
 
 Thanks for checking out my project! You can check out [Jamatar's] music at http://www.jamatar.com :)
+
+## Changelog
+
+* **2560 v1.10 OCTOBER 2024** - A direct fork of Jamatar's GENajam v1.10 repository with only necessary changes made to the hardware pin assignments so that the code runs on the GENajam I/O Sheild PCB for the Arduino Mega 2560.
+* **2560 v1.11 NOVEMBER 2024** - Fix for up and down button reversal in FM Edit mode.
