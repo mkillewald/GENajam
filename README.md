@@ -3,7 +3,7 @@ This is a fork of https://github.com/jamatarmusic/GENajam edited to work on an A
 <a href="https://github.com/mkillewald/glamour_shots/blob/main/GENajam/GENajam.jpeg"><img src="https://github.com/mkillewald/glamour_shots/blob/main/GENajam/GENajam.jpeg" width="700" alt="GENajam I/O Shield for Arduino MEGA 2560"></a>
 
 
-# GENajam v1.10
+# GENajam 2560 v1.10
 Front end editor for GenMDM by Littlescale
 
 Overview video: https://www.youtube.com/watch?v=uE3FbmMKl-U
