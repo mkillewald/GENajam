@@ -33,7 +33,7 @@ If you are having trouble compiling the Arduino .ino sketch (genajam_v1_11-2560.
 I have also provided a checksum of the file which you can check after downloading the file to your computer. This is generally used to verify that you have downloaded a good non-corrupted version of the file before uploading it to your Arduino. This is not an absolutely necessary step, so if you don't know how to checksum the file on your computer, don't worry about this. 
 
 SHA-256    
-8fdd4154afb574f78b9486fc9739032fa49d24690ad6b9f25cc35c30be18ab0d  ./genajam_v1_11-2560.ino.hex
+ede6901b894e09d0d5f7af7067f332f0a17a002871d1864f0cb9121f152f8141  ./genajam_v1_11-2560.ino.hex
 
 # Instructions
 
