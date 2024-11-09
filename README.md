@@ -26,7 +26,7 @@ Both required libraries can be installed via the Arduino IDE Library Manager.
 - MIDI library 5.0.2 by FortySevenEffects [Francois Best, lathoub]  (https://github.com/FortySevenEffects/arduino_midi_library)
 - SDfat library 1.1.4 by Bill Greiman (https://github.com/greiman/SdFat).
 
-# Pre-compiled File
+# Pre-compiled .hex File
 
 If you are having trouble compiling the Arduino .ino sketch (genajam_v1_11-2560.ino) in your IDE, I have provided a pre-compiled .hex file (genajam_v1_11-2560.ino.hex) that you can download and then upload directly to your Arduino Mega 2560 without having to compile anything. See the discussion at https://forum.arduino.cc/t/the-simplest-way-to-upload-a-compiled-hex-file-without-the-ide/401996 for instructions on how to upload the pre-compiled .hex file to your Arduino Mega 2560. 
 
