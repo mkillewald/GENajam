@@ -105,11 +105,11 @@ A good way to think of this is that OP4 is the oscilator. Turn down OP1, 2 and 3
 
 Check out the SMSPower page to see all the algorithms.
 
-**Feedback** - Feedback is only enabled on OP1, so if that operator is turned down, you won't hear anything happening. I find that OP1 has to be at near max volume (120 or above) for full effect to be heard. By using Algorithm 7, you can turn all OPs down to 0 except for OP1 and turn up feedback for a rare Mega Drive saw wave. Pushing Feedback to high can result in a kind of white noise distortion.
+**Feedback** - Feedback is only enabled on OP1, so if that operator is turned down, you won't hear anything happening. I [Jamatar] find that OP1 has to be at near max volume (120 or above) for full effect to be heard. By using Algorithm 7, you can turn all OPs down to 0 except for OP1 and turn up feedback for a rare Mega Drive saw wave. Pushing Feedback to high can result in a kind of white noise distortion.
 
 **Pan** - The YM2612 only supports hard left, hard right and center pan. Moving the knob all the way left mutes the sound.
 
-**OP Volume** - This is simply the volume of each operator (and the amount it modulates the operator before it). As I said before, make sure OP4 is cranked as it's usually the oscillator at the start of the chain.
+**OP Volume** - This is simply the volume of each operator (and the amount it modulates the operator before it). As I [Jamatar] said before, make sure OP4 is cranked as it's usually the oscillator at the start of the chain.
 
 **Multiple** - This is the multiplification factor on the frequency, or a kind of octave selector for the operator. The YM2612 has some nice pitched multipliers, so it's not just like a oscillator tuning amount, it gives you some nice tuning in musical steps.
 
@@ -125,7 +125,7 @@ Check out the SMSPower page to see all the algorithms.
 
 **LFO/FM/AM** - This section lets you chose the speed of the LFO and the intensity on either frequency modulation (warbly cool stuff) or amplitude modulation (tremelo). The AM section will not do anything until it is switched to "ON" on page 12. If you want only amplitude modulation, make sure you turn down FM to zero.
 
-**VOICES and Polyphony** - The YM2612 is multi-timbral. That means that while in POLY mode it loads all patches and settings across to all 6 channels at once, you can also switch over to MONO mode, set each channel differently, switch back to POLY mode (without pressing left and right) and play all 6 voices which different settings in POLY mode which is really cool. Try load different presets into channels 1 - 6 in MONO mode and then press POLY mode. I wrote the polyphony engine to have random note stealing and have low note priority. This means chords should sound really full if you hold something with the sustain pedal and play a melody over a held chord.
+**VOICES and Polyphony** - The YM2612 is multi-timbral. That means that while in POLY mode it loads all patches and settings across to all 6 channels at once, you can also switch over to MONO mode, set each channel differently, switch back to POLY mode (without pressing left and right) and play all 6 voices which different settings in POLY mode which is really cool. Try load different presets into channels 1 - 6 in MONO mode and then press POLY mode. I [Jamatar] wrote the polyphony engine to have random note stealing and have low note priority. This means chords should sound really full if you hold something with the sustain pedal and play a melody over a held chord.
 
 Thanks for checking out my project! You can check out [Jamatar's] music at http://www.jamatar.com :)
 
