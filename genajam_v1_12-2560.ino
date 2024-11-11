@@ -1,4 +1,4 @@
-// GENajam v1.11 2560 - k1ds3ns4t10n 2024-NOVEMBER
+// GENajam v1.12 2560 - k1ds3ns4t10n 2024-NOVEMBER
 // originally by/forked from JAMATAR 2021-AUGUST
 // --------------------
 // This is a front end for Litte-scale's GENMDM module for Mega Drive
@@ -151,7 +151,7 @@ uint16_t dirIndex[nMax];
 MIDI_CREATE_INSTANCE(HardwareSerial, Serial1, MIDI);
 
 // start position of each channel file cursor
-char tfifilenumber[6] = {0, 0, 0, 0, 0, 0};
+uint16_t tfifilenumber[6] = {0, 0, 0, 0, 0, 0};
 
 //set the initial midi channel
 uint8_t tfichannel=1;
@@ -260,7 +260,7 @@ void setup()
     lcd.setCursor(0,0);
     lcd.print("JamaGEN START!");
     lcd.setCursor(0,1);
-    lcd.print("ver 2560 1.11");
+    lcd.print("ver 2560 1.12");
     delay(1000);
   
 
