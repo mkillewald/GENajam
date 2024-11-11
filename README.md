@@ -126,7 +126,7 @@ Thanks for checking out my project! You can check out [Jamatar's] music at http:
 
 ## Changelog
 
-* **2560 v1.12 November 11, 2024** - Fix for number of files > 127 bug
-* **2560 v1.11 November 9, 2024** - Fix for up and down button reversal in FM Edit mode.
-* **2560 v1.10 October 26, 2024** - A direct fork of Jamatar's GENajam v1.10 repository with only necessary changes made to the hardware pin assignments so that the code runs on the GENajam I/O Sheild PCB for the Arduino Mega 2560.
+* **2560 v1.12 - November 11, 2024** - Fix for number of files > 127 bug
+* **2560 v1.11 - November 9, 2024** - Fix for up and down button reversal in FM Edit mode.
+* **2560 v1.10 - October 26, 2024** - A direct fork of Jamatar's GENajam v1.10 repository with only necessary changes made to the hardware pin assignments so that the code runs on the GENajam I/O Sheild PCB for the Arduino Mega 2560.
 
