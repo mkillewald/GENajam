@@ -28,12 +28,7 @@ Both required libraries can be installed via the Arduino IDE Library Manager.
 
 # Pre-compiled .hex File
 
-If you are having trouble compiling the Arduino .ino sketch (genajam_v1_11-2560.ino) in your IDE, I have provided a pre-compiled .hex file (genajam_v1_11-2560.ino.hex) that you can download and then upload directly to your Arduino Mega 2560 without having to compile anything. See the discussion at https://forum.arduino.cc/t/the-simplest-way-to-upload-a-compiled-hex-file-without-the-ide/401996 for instructions on how to upload the pre-compiled .hex file to your Arduino Mega 2560. 
-
-I have also provided a checksum of the file which you can check after downloading the file to your computer. This is generally used to verify that you have downloaded a good non-corrupted version of the file before uploading it to your Arduino. This is not an absolutely necessary step, so if you don't know how to checksum the file on your computer, don't worry about this. 
-
-SHA-256    
-ede6901b894e09d0d5f7af7067f332f0a17a002871d1864f0cb9121f152f8141  ./genajam_v1_11-2560.ino.hex
+If you are having trouble compiling the Arduino .ino file in your IDE, I have provided a pre-compiled .hex file under [Releases] (https://github.com/mkillewald/GENajam/releases) that you can download and then upload directly to your Arduino Mega 2560 without having to compile anything. See the discussion at https://forum.arduino.cc/t/the-simplest-way-to-upload-a-compiled-hex-file-without-the-ide/401996 for instructions on how to upload the pre-compiled .hex file to your Arduino Mega 2560. 
 
 # Instructions
 
